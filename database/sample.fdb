@@ -1,0 +1,24 @@
+Metadata:
+ -db_name: ..\database\sample
+ -version: 1
+ -created: 15 August, 2024
+ -description: This is fdb file
+Collections:
+ -path: collections
+ -backup_enforce: true
+Collection_List:
+ --new_collection:
+  -keys:
+   -id
+   -username
+   -email
+   -created_at
+  -type:
+   -int
+   -string
+   -string
+   -datetime
+  -primary:
+   -id
+  -unique:
+   -email

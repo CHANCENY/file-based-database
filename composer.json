@@ -1,0 +1,14 @@
+{
+    "name": "nyasu/fdb",
+    "autoload": {
+        "psr-4": {
+            "Fdb\\": "src/fdb/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^7.1"
+    },
+  "require": {
+    "ext-openssl": "*"
+  }
+}

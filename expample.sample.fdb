@@ -1,0 +1,28 @@
+Metadata:
+ -db_name: sample
+ -db_username: chance
+ -db_password: 1234
+ -version: 1.0
+ -created: 15 August 2024
+ -description: null
+Collections:
+ -path: collections
+ -backup_enforce: true
+Collection_List:
+ --users.fdb.json:
+  -keys:
+   -firstname
+   -lastname
+   -email
+   -password
+   -is_active
+  -type:
+   -string
+   -string
+   -string
+   -string
+   -boolean
+  -primary:
+   -email
+  -unique:
+   -email
